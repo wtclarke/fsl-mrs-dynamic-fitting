@@ -105,7 +105,8 @@ def run_iteration(lw, noise):
         'editconfig.py',
         rescale=False,
         **fitargs)
-    dyn_res = dyn_obj.fit()
+    init = dyn_obj.initialise(indiv_init=None)
+    dyn_res = dyn_obj.fit(init=init)
 
     # Extract dynamic concentration parameters
     df_dyn = dyn_res.dataframe_free.filter(like='conc', axis=1)

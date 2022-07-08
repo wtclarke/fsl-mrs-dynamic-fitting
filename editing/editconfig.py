@@ -8,8 +8,8 @@
 
 Parameters = {
    'conc'    : 'fixed',
-   'eps'     : 'variable',
-   'Phi_0'   : 'variable',
+   'eps'     : 'fixed',
+   'Phi_0'   : 'fixed',
    'Phi_1'   : 'fixed',
    'gamma'   : 'fixed',
    'sigma'   : 'fixed',
