@@ -1,3 +1,4 @@
 editing/sim_results
 *.csv
+.DS_Store
 
