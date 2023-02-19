@@ -1,0 +1,5 @@
+Namespace(align_limits=(0.2, 4.2), average=False, config=None, conjugate=False, data='nifti/P010/metab_closed.nii.gz', ecc=None, fmrs=True, hlsvd=True, leftshift=2, output='processed/closed/P010', overwrite=True, quant='nifti/P010/wref3.nii.gz', reference='nifti/P010/wref1.nii.gz', report=True, t1=None, unlike=False, verbose=False)
+--------
+Command Line Args:   --data nifti/P010/metab_closed.nii.gz --quant nifti/P010/wref3.nii.gz --reference nifti/P010/wref1.nii.gz --output processed/closed/P010 --leftshift 2 --hlsvd --fmrs --report --overwrite
+Defaults:
+  --align_limits:    (0.2, 4.2)

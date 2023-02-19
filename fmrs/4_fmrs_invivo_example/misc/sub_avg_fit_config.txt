@@ -1,0 +1,14 @@
+# Configuration file for the subject average fits
+basis = basis
+baseline_order = 1
+metab_groups = [mm]
+TE = 36.0
+TR = 4.0
+tissue_frac = misc/tissue_frac.json
+combine = [Cr, PCr]
+combine = [PCho, GPC]
+combine = [NAA, NAAG]
+combine = [Glu, Gln]
+combine = [Glc, Tau]
+overwrite
+report

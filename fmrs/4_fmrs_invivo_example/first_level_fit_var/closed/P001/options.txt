@@ -1,0 +1,5 @@
+{"data": "processed/closed/P001/metab.nii.gz", "basis": "basis", "output": "first_level_fit_var/closed/P001", "dyn_config": "misc/fmrs_lw_model.py", "time_variables": ["design_matrix.csv"], "ppmlim": [0.2, 4.2], "h2o": null, "baseline_order": 1, "metab_groups": ["mm"], "lorentzian": false, "t1": null, "report": true, "verbose": false, "overwrite": true, "no_rescale": false, "config": null}
+--------
+Command Line Args:   --data processed/closed/P001/metab.nii.gz --basis basis --dyn_config misc/fmrs_lw_model.py --time_variables design_matrix.csv --baseline_order 1 --metab_groups mm --output first_level_fit_var/closed/P001 --report --overwrite
+Defaults:
+  --ppmlim:          (0.2, 4.2)
