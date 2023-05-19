@@ -2,4 +2,5 @@ editing/sim_results
 *.csv
 .DS_Store
 dwmrs/1_simulation_dti/tmp_xfibers_out
+zenodo_upload
 

@@ -7,7 +7,7 @@ The data is taken from:
 Ip IB, Berrington A, Hess AT, Parker AJ, Emir UE, Bridge H. _Combined fMRI-MRS acquires simultaneous glutamate and BOLD-fMRI signals in the human brain._ Neuroimage 2017;155:113–119  
 doi: [10.1016/j.neuroimage.2017.04.030](https://doi.org/10.1016/j.neuroimage.2017.04.030).
 
-The raw data is hosted and available from [Zenodo]().
+The raw data is hosted and available from [Zenodo](https://doi.org/10.5281/zenodo.7950984).
 
 The preprocessed data is packaged with this git repository. The preprocessed data can be recreated by running the first two (optional) steps listed below.
 
@@ -21,7 +21,7 @@ To use the packaged script `run_all.sh` you will require an FSL installation. Pl
 All steps (1-6 below) can be run using the `run_all.sh` script. Note the dynamic fitting (step 6 below) will take a long time, and it is recommended to run this on a suitable computing cluster.
 
 __Optionally__
-1. Download the unprocessed NIfTI-MRS data from [Zenodo](). This data was converted from DICOM scanner outputs using `0a_convert.py`, which calls `spec2nii` (use `python 0a_convert.py path_to_data_dir nifti/`). The raw (unconverted) DICOM data is available on request.
+1. Download the unprocessed NIfTI-MRS data from [Zenodo](https://doi.org/10.5281/zenodo.7950984). This data was converted from DICOM scanner outputs using `0a_convert.py`, which calls `spec2nii` (use `python 0a_convert.py path_to_data_dir nifti/`). The raw (unconverted) DICOM data is available on request.
 2. Run `0b_preprocess.py` to preprocess the unprocessed NIfTI-MRS data. This includes forming the average data.
 ```
 python 0b_preprocess.py nifti/ processed

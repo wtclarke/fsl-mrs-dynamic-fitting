@@ -7,9 +7,9 @@ The data is taken from:
 Ligneul C, Palombo M, Hernández-Garzón E, et al. _Diffusion-weighted magnetic resonance spectroscopy enables cell-specific monitoring of astrocyte reactivity in vivo_. NeuroImage 2019;191:457–469.
 doi: [10.1016/j.neuroimage.2019.02.046](https://doi.org/10.1016/j.neuroimage.2019.02.046).
 
-The original data is hosted and available from [Zenodo]().
+The original data is hosted and available from [Zenodo](https://doi.org/10.5281/zenodo.7950984).
 
-The data packaged with this git repository is already preprocessed, as provided by the original study authors. Minor additional preprocessing to align across b-values was applied for this work. The original dat was supplied in .mat format and was converted to NIfTI-MRS for use here. The data can be recreated by running the first (optional) step listed below.
+The data packaged with this git repository is already preprocessed, as provided by the original study authors. Minor additional preprocessing to align across b-values was applied for this work. The original data was supplied in .mat format and was converted to NIfTI-MRS for use here. The data can be recreated by running the first (optional) step listed below.
 
 ## How to run the analysis & generate the figures
 
@@ -18,7 +18,7 @@ Follow the steps in order below.
 Note the dynamic fitting (step 3) can take a long time, and it is recommended to run this on a suitable computing cluster.
 
 __Optionally__
-1. Download the original `.mat` formatted data from [Zenodo]() and run `0a_convert_and_process.py`. This applies additional preprocessing to the data provided by the original authors and generates NIfTI-MRS format files.
+1. Download the original `.mat` formatted data from [Zenodo](https://doi.org/10.5281/zenodo.7950984) and run `0a_convert_and_process.py`. This applies additional preprocessing to the data provided by the original authors and generates NIfTI-MRS format files.
 ```
 python 0a_convert_and_process.py path_to_data_dir nifti/
 ```

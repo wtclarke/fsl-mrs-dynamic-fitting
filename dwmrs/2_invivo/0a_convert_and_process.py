@@ -11,6 +11,7 @@ dwell_time = 0.0002
 bw = 1/dwell_time
 cf = 500.3
 
+
 def process_single(single_dir):
     bval = []
     fid_list = []
@@ -18,13 +19,17 @@ def process_single(single_dir):
         bval.append(float(file.stem.lstrip('high_b_'))*0.001)
         tmpload = loadmat(file)
         fid = tmpload['soustraction'].squeeze().conj()
-        fid = proc.hlsvd(fid, dwell_time, cf, [-0.35,0.35])
+        fid = proc.hlsvd(fid, dwell_time, cf, [-0.35, 0.35])
         fid = proc.phaseCorrect(fid, bw, cf)[0]
         fid[0] *= 2.0
-        fid = proc.applyLinPhase(fid, np.linspace(-bw/2, bw, len(fid)) , -0.061E-3)
+        fid = proc.applyLinPhase(
+            fid,
+            np.linspace(-bw/2, bw, len(fid)),
+            -0.061E-3)
         fid_list.append(fid)
 
-    fid_list,phs,freq = proc.phase_freq_align(
+
+    fid_list, phs, freq = proc.phase_freq_align(
         fid_list,
         bw,
         cf,
@@ -32,7 +37,6 @@ def process_single(single_dir):
         niter=4,
         apodize=0)
 
-    
     fid_list = [x for _, x in sorted(zip(bval, fid_list))]
     bval = sorted(bval)
 
@@ -51,15 +55,15 @@ def process_single(single_dir):
         dwell_time,
         cf,
         dim_tags=['DIM_USER_0', None, None])
-    
+
     nifti_obj.set_dim_tag(
         'DIM_USER_0',
         'DIM_USER_0',
         'b-value increment',
         {'b_value': bval})
 
-
     return nifti_obj
+
 
 def main():
     # Parse command-line arguments
