@@ -1,6 +1,6 @@
 from PIL import Image
 from PIL import ImageDraw, ImageFont
- 
+
 im1 = Image.open('figures/fig3ab_fmrs_tal.png')
 im2 = Image.open('figures/fig3cd_spectrum_ratios.png')
 
