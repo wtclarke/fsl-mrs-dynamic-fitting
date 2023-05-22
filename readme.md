@@ -49,4 +49,4 @@ For help with MRS concepts we recommend the [MRSHub discussion boards](https://f
 Documentation for the underlying FSL-MRS tool is [online](fsl-mrs.com).
 
 ### Accompanying talks
-Aspects of this work, specifically fMRS, were presented at ISMRM 2022, as abstract #0309 `Dynamic fitting of functional MRS, diffusion weighted MRS, and edited MRS using a single interface`, and as a talk `Using all the Information: Fitting Functional MRS with a GLM` in the member initiated session `Functional MRS: Current Challenges & Cutting-Edge Methods`.
+Aspects of this work were presented at ISMRM 2022, as abstract #0309 `Dynamic fitting of functional MRS, diffusion weighted MRS, and edited MRS using a single interface`, and as a talk, specifically about the fMRS section `Using all the Information: Fitting Functional MRS with a GLM` in the member initiated session `Functional MRS: Current Challenges & Cutting-Edge Methods`.
