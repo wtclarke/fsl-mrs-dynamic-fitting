@@ -1,7 +1,9 @@
-# Simultaneous fitting of spectral and dynamic models to 2D MRS
-### Clarke, Ligneul, Cottaar, Ip & Jbabdi. 2023.
+# Universal Dynamic Fitting of Magnetic Resonance Spectroscopy
+### William T Clarke, Clémence Ligneul, Michiel Cottaar, I Betina Ip, and Saad Jbabdi
+_Wellcome Centre for Integrative Neuroimaging, FMRIB, Nuffield Department of Clinical Neurosciences, University of Oxford, UK_
 
-This repository contains the source code, data, and analysis results for the publication `Simultaneous fitting of spectral and dynamic models to 2D MRS` published by `Clarke, Ligneul, Cottaar, Ip & Jbabdi`, Wellcome Centre for Integrative Neuroimaging (WIN), University of Oxford, in 2023.
+
+This repository contains the source code, data, and analysis results for the publication `Universal Dynamic Fitting of Magnetic Resonance Spectroscopy` published by `Clarke, Ligneul, Cottaar, Ip & Jbabdi`, at the Wellcome Centre for Integrative Neuroimaging (WIN), University of Oxford, in 2023.
 
 The accompanying paper is **not** yet available. This will be updated once available online as a preprint.
 

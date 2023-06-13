@@ -1,8 +1,8 @@
 from PIL import Image
 from PIL import ImageDraw, ImageFont
 
-im1 = Image.open('figures/fig3ab_fmrs_tal.png')
-im2 = Image.open('figures/fig3cd_spectrum_ratios.png')
+im1 = Image.open('../figures/fig3ab_fmrs_tal.png')
+im2 = Image.open('../figures/fig3cd_spectrum_ratios.png')
 
 h = im1.size[1] + im2.size[1]
 w = max(im1.size[0], im2.size[0])
@@ -19,4 +19,4 @@ I1.text((60, 1450), "C", fill=(0, 0, 0), font=font)
 I1.text((1800, 1450), "D", fill=(0, 0, 0), font=font)
 
 
-im.save('figures/fig3_combined.png')
+im.save('../figures/fig3_combined.png')
