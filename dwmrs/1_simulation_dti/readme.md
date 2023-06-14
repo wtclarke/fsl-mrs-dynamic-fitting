@@ -11,7 +11,7 @@ The code in this subdirectory corresponds to `Diffusion-weighted MRS – Simulat
 - `b_1000_3000_{N}dir` contains the specified b values and gradient directions created by `create_siemens_directions.py`.
 
 ## Running the simulation
-After generating the direction files using `create_siemens_directions.py`, this simulation is run entirely within the `ball_and_sticks_simulation.ipynb`  notebook. This notebook generates the `ig7_ball_and_sticks_sim.png` figure (Figure 8).
+After generating the direction files using `create_siemens_directions.py`, this simulation is run entirely within the `ball_and_sticks_simulation.ipynb`  notebook. This notebook generates the `ig9_ball_and_sticks_sim.png` figure (Figure 9).
 
 The specific direction files can be generated using the following commands.
 

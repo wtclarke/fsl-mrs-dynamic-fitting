@@ -9,8 +9,8 @@ The majority of the code for this component resides in the [FSL-MRS fMRS fitting
 
 ## Contents
 - `fsl_mrs_fmrs_demo` contains the demo analysis pipeline and results generation (see above).
-- `explanatory_fig.ipynb` generates `fig4_fmrs_demo.png` (Figure 5).
-- `compare_fit_to_truth.ipynb` generates the results figure `fig5_simulation_traces.png` (Figure 6), validation results and figures (supporting figures 6 and 7).
+- `explanatory_fig.ipynb` generates `fig5_fmrs_demo.png` (Figure 5).
+- `compare_fit_to_truth.ipynb` generates the results figure `fig6_simulation_traces.png` (Figure 6), validation results and figures (supporting figures 6 and 7).
 - Other files are used in the creation of, or are partially completed figures.
 
 ## Running the demo / figure generation

@@ -9,7 +9,7 @@ This work replicates that finding using the FSL-MRS fitting framework. Additiona
 - `run_mc.py` runs a single case of the monte-carlo simulation (i.e. N repetitions of one separation, delta, and noise level)
 - `run_full_mc.py` repeatedly calls `run_mc.py` to generate the full simultion results. I.e. across multiple separations and noise levels.
 - `sim_results` and `sim_results_fixed` contain the numerical results of the simulation for the two cases (per-peak lw/shift and fixed lw/shift).
-- `generate_results_and_figures.ipynb` contains the analysis and figure generation code. Part A & B of Figure 3 are generated in this section.
+- `generate_results_and_figures.ipynb` contains the analysis and figure generation code. Part A & B of Figure 2 are generated in this section.
 
 ## Running the simulation
 Having installed FSL, FSL-MRS and its dependencies (see top level readme), run the simulation using:

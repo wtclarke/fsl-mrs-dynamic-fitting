@@ -5,7 +5,7 @@ This section extends the analysis of the previous two-peak simulation to simulat
 The ratio of uncertainty of fMRS parameters (delta concentration) of independent and spatio-temporal fitting was calculated for each metabolite changing in that particular simulation, and plotted as a function of mean parameter correlation.
 
 ## Contents
-- `prototyping_and_analysis.ipynb` contains the initial exploration of the simulation and prototyping of the scripted python code. Also contains the analysis and figure generation code. Part C & D of Figure 3 are generated in this section. Supporting figure S5 is also generated here.
+- `prototyping_and_analysis.ipynb` contains the initial exploration of the simulation and prototyping of the scripted python code. Also contains the analysis and figure generation code. Part C & D of Figure 2 are generated in this section. Supporting figure S5 is also generated here.
 - `run_mc.py` runs a single case of the monte-carlo simulation (i.e. N repetitions of one separation, delta, and noise level)
 - `run_full_mc.py` repeatedly calls `run_mc.py` to generate the full simultion results.
 - `sim_results` contains the numerical results of the simulation.

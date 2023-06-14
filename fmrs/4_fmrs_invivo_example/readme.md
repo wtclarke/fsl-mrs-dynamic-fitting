@@ -12,7 +12,7 @@ The raw data is hosted and available from [Zenodo](https://doi.org/10.5281/zenod
 The preprocessed data is packaged with this git repository. The preprocessed data can be recreated by running the first two (optional) steps listed below.
 
 ## Installation & requirements
-FSL-MRS version > 2.0.8. Please see the [FSL-MRS documentation](http://www.fsl-mrs.com/) for instructions on [installing and setting up a Conda environment](https://open.win.ox.ac.uk/pages/fsl/fsl_mrs/conda.html#conda) and subsequently installing [FSL-MRS](https://open.win.ox.ac.uk/pages/fsl/fsl_mrs/install.html#option-1-using-conda)
+FSL-MRS version >= 2.1.0. Please see the [FSL-MRS documentation](http://www.fsl-mrs.com/) for instructions on [installing and setting up a Conda environment](https://open.win.ox.ac.uk/pages/fsl/fsl_mrs/conda.html#conda) and subsequently installing [FSL-MRS](https://open.win.ox.ac.uk/pages/fsl/fsl_mrs/install.html#option-1-using-conda)
 
 To use the packaged script `run_all.sh` you will require an FSL installation. Please see the [online instructions](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation) on how to install for your system.
 

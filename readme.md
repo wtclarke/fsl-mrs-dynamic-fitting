@@ -26,7 +26,7 @@ Each section contains further documentation and breakdown of the subsections, in
 To get a local copy of this repository `git clone --recurse-submodules https://git.fmrib.ox.ac.uk/wclarke/fsl-mrs-dynamic-fitting.git`. Install [Git LFS](https://git-lfs.com/) before cloning as some files are stored using it.
 
 ## Requirements
-To run the code in this repository you will need to install FSL-MRS. An ipython kernel will be required to run any of the python notebooks. The [Nilearn](https://nilearn.github.io/stable/index.html) package is required for the fMRS components. All requirements are best installed using the package manager _conda_. Briefly, after installing conda:
+To run the code in this repository you will need to install FSL-MRS (version >=2.1.0). An ipython kernel will be required to run any of the python notebooks. The [Nilearn](https://nilearn.github.io/stable/index.html) package is required for the fMRS components. All requirements are best installed using the package manager _conda_. Briefly, after installing conda:
 
 ```
 conda install -c conda-forge \

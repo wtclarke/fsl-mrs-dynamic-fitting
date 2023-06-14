@@ -40,11 +40,11 @@ __Run the main steps__
 python 2_scale_amplitudes.py 
 ```
 
-5. Run `3_runs_stats.py` to perform group level stats, genertign the `group_results` directory. This calls the FSL-MRS `fmrs_stats` tool.
+5. Run `3_runs_stats.py` to perform group level stats, generating the `group_results` directory. This calls the FSL-MRS `fmrs_stats` tool.
 ```
 python 3_runs_stats.py 
 ```
 
 __Run the plotting scripts__
 
-6. Run `results_and_figures.ipynb` to generate the outputs and results figures.
+6. Run `results_and_figures.ipynb` to generate the outputs and results figures (specifically `fig10_invivo_dwmrs.png`, Figure 10).
