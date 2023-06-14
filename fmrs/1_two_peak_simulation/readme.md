@@ -5,7 +5,7 @@ This section numerically replicates the theoretical findings of Tal [The future 
 This work replicates that finding using the FSL-MRS fitting framework. Additionally, simulation is extended to the case where the 'nuisance parameters' linewidth and global peak shift are jointly estimated (replicating the likely in vivo case.)
 
 ## Contents
-- `prototyping.ipynb` contains the initial exploration of the simulation and prototyping of the scripted python code. Supporting figures S3 and S4 are generated here.
+- `prototyping.ipynb` contains the initial exploration of the simulation and prototyping of the scripted python code. Supporting figures S2 and S3 are generated here.
 - `run_mc.py` runs a single case of the monte-carlo simulation (i.e. N repetitions of one separation, delta, and noise level)
 - `run_full_mc.py` repeatedly calls `run_mc.py` to generate the full simultion results. I.e. across multiple separations and noise levels.
 - `sim_results` and `sim_results_fixed` contain the numerical results of the simulation for the two cases (per-peak lw/shift and fixed lw/shift).

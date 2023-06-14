@@ -2,7 +2,7 @@
 
 The outputs mostly relies upon the fMRS demo that accompanies FSL-MRS, and that was original generated for the ISMRM 2022 meeting (see talk `Using all the Information: Fitting Functional MRS with a GLM` in the member initiated session `Functional MRS: Current Challenges & Cutting-Edge Methods`).
 
-Here we expand the analysis to quantitatively assess the accuracy of the results from the demo, and generate figures (figure 4, and supporting figures 6 & 7) for this publication.
+Here we expand the analysis to quantitatively assess the accuracy of the results from the demo, and generate figures (figure 4, and supporting figures 7 & 8) for this publication.
 
 ## Retrieving the fMRS demo code
 The majority of the code for this component resides in the [FSL-MRS fMRS fitting demo repository](https://github.com/wtclarke/fsl_mrs_fmrs_demo), separately hosted on GitHub. This repository has been added as a [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) to this repository. To receive a version of the submodule repository when you clone this repository add `--recurse-submodules` to the `git clone` call.
@@ -10,7 +10,7 @@ The majority of the code for this component resides in the [FSL-MRS fMRS fitting
 ## Contents
 - `fsl_mrs_fmrs_demo` contains the demo analysis pipeline and results generation (see above).
 - `explanatory_fig.ipynb` generates `fig5_fmrs_demo.png` (Figure 5).
-- `compare_fit_to_truth.ipynb` generates the results figure `fig6_simulation_traces.png` (Figure 6), validation results and figures (supporting figures 6 and 7).
+- `compare_fit_to_truth.ipynb` generates the results figure `fig6_simulation_traces.png` (Figure 6), validation results and figures (supporting figures 7 and 8).
 - Other files are used in the creation of, or are partially completed figures.
 
 ## Running the demo / figure generation
