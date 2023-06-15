@@ -5,7 +5,7 @@ _Wellcome Centre for Integrative Neuroimaging, FMRIB, Nuffield Department of Cli
 
 This repository contains the source code, data, and analysis results for the publication `Universal Dynamic Fitting of Magnetic Resonance Spectroscopy` published by `Clarke, Ligneul, Cottaar, Ip & Jbabdi`, at the Wellcome Centre for Integrative Neuroimaging (WIN), University of Oxford, in 2023.
 
-The accompanying paper is **not** yet available. This will be updated once available online as a preprint.
+The accompanying paper is now available as a [preprint](https://doi.org/10.1101/2023.06.15.544935).
 
 ## Contents
 This repository contains sections pertaining to each subsection in the methods and results of the accompanying paper. Additionally, the figures generated for the paper and supporting information are contained in the `publication` subdirectory.
@@ -40,7 +40,7 @@ Full installation instructions (including how to use conda) can be found in FSL-
 ## Licence
 The code in this repository is released under the BSD 3-clause licence (see LICENCE file). The anonymised data, and simulated data in this repository is released into the public domain. Raw data is available via the WIN Open Data route.
 
-Please cite the accompanying paper **[DOI TO DO]** if you use any part of this work.
+Please cite the [accompanying paper](https://doi.org/10.1101/2023.06.15.544935) if you use any part of this work.
 
 ## Contact & Help
 Please contact the corresponding author, [Will Clarke](https://www.win.ox.ac.uk/people/william-clarke) for information about the scientific content. Issues with the code samples can be raised via the GitHub Issues page or via the [FSL JISC mailing list](mailto:FSL@JISCMAIL.AC.UK).
