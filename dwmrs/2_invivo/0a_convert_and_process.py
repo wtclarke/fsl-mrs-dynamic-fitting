@@ -60,7 +60,7 @@ def process_single(single_dir):
         'DIM_USER_0',
         'DIM_USER_0',
         'b-value increment',
-        {'b_value': bval})
+        {'b_value': {'Value': bval, 'Description': 'b-value in ms.μm^-2'}})
 
     return nifti_obj
 

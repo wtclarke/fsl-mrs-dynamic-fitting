@@ -13,7 +13,7 @@ data_list = []
 for file in data_path.rglob('*.nii.gz'):
     curr_file = mrs_io.read_FID(file)
     low_b, _ = ntools.split(curr_file, dimension='DIM_USER_0', index_or_indicies=0)
-    low_b = ntools.reorder(low_b, ['DIM_DYN', None, None])
+    low_b.set_dim_tag('DIM_USER_0', 'DIM_DYN')
     data_list.append(low_b)
 
 merged = ntools.merge(data_list, dimension='DIM_DYN')
