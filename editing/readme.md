@@ -12,3 +12,5 @@ This simulation is run across different noise levels and linewidhts (simulating 
 To run the simulation run `run_all_sim.sh` which makes calls to `run_mc_editing.py`. Results are generated in the notebook `analyse_sim_results.ipynb`.
 
 The explanatory figure for this section (Figure 3) is created in the prototyping notebook `editing_mc_sim_prototype.ipynb` and compiled in `publication/figure_creation/abstract_figures_dynmrs.drawio`.
+
+The file `additional_explanatory_simulation.ipynb` was created in the revision process to explore performance as a function of creatine concentration. The results are not presented in the manuscript.
