@@ -29,7 +29,6 @@ Bounds = {
     'c_adc_fast'  : (.1,4),
     'c_frac_slow' : (0,1),
     'gamma'       : (0,None),
-    'sigma'       : (0,None),
     'b_amp'       : (None,None),
     'b_adc'       : (1E-5,3),
     'b_off'       : (None,None)
